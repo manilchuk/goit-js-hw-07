@@ -37,4 +37,4 @@ function imagesTemplate(images) {
 
 const markup = imagesTemplate(images);
 const list = document.querySelector(".gallery");
-list.innerHTML = markup;
+list.insertAdjacentHTML("beforeend", markup);
